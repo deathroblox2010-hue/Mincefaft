@@ -1,0 +1,62 @@
+{
+  "bot-account": {
+    "username": "Death_pubg",
+    "password": "",
+    "type": "offline"
+  },
+
+  "server": {
+    "ip": "G3_deat7.aternos.me",
+    "port": 29648,
+    "version": "1.20.1"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true,
+      "jump": true,
+      "rotate": true,
+      "hit": {
+        "enabled": false,
+        "delay": 1000,
+        "attack-mobs": false
+      },
+      "circle-walk": {
+        "enabled": false,
+        "radius": 5
+      }
+    },
+
+    "chat-messages": {
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "I'm a regular player ",
+        "My owner is urFate_ ",
+        "I want be alone ",
+        "Visit my Youtube page! (https://youtube.com/@H2N_OFFICIAL)"
+      ]
+    },
+
+    "chat-log": false,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 5000
+  }
+}
+
+
