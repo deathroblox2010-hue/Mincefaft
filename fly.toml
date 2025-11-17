@@ -1,0 +1,16 @@
+app = "mincefaft"
+primary_region = "ams"
+
+[machine]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256
+
+  restart = "always"
+
+[processes]
+  app = "node bot.js"
+
+[experimental]
+  auto_stop_machines = false
+  auto_start_machines = true
